@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>My weather application</title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <input type="search" id="searchBox" placeholder="Enter a city..." />
+        <input type="submit" value="search" />
+      </form>
+    </header>
+    <main>
+      <div class="current-weather">
+        <h1>Paris</h1>
+        <p>
+          Saturday 15:32, moderate rain<br />
+          Humidity: <strong>87%</strong>, wind: <strong>7.2km/h</strong>
+        </p>
+        <div>☀️ 14℃</div>
+      </div>
+      <div class="forecast-weather">
+        <ul>
+          <li>Sun 🌥️</li>
+          <div>14℃ - 18℃</div>
+          <li>Mon 🌥️</li>
+          <div>14℃ - 18℃</div>
+          <li>Tue 🌥️</li>
+          <div>14℃ - 18℃</div>
+          <li>Wed 🌥️</li>
+          <div>14℃ - 18℃</div>
+          <li>Thu 🌥️</li>
+          <div>14℃ - 18℃</div>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      This project was coded by
+      <a
+        href="https://www.shecodes.io/graduates/135338-parisa-heydari"
+        target="_blank"
+        >Parisa</a
+      >
+      and is on her
+      <a
+        href="https://www.shecodes.io/graduates/135338-parisa-heydari"
+        target="_blank"
+        >SheCodes profile</a
+      >
+    </footer>
+  </body>
+</html>
